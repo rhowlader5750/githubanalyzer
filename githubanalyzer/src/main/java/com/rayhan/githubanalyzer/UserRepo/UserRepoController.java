@@ -14,7 +14,7 @@ public class UserRepoController {
 
     private final UserRepoService userRepoService;
 
-    // ✅ Constructor injection (recommended)
+    
     public UserRepoController(UserRepoService userRepoService) {
         this.userRepoService = userRepoService;
     }
